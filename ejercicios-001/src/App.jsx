@@ -1,7 +1,7 @@
 import Ejercicio01 from './components/ejercicio01'
 import ButtonGeneral from './components/buttonGeneral' 
 import ContenedorBotones  from './components/utils/containerbtns'
-import 
+
 function App() {
 
   return (
@@ -22,6 +22,5 @@ function App() {
     </>
   )
 }
-import { ContenedorBotones } from './components/utils/containerbtns'
 
 export default App

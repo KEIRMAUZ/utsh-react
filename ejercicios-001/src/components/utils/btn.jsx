@@ -1,13 +1,12 @@
 import React from 'react'
 
-export default function IniciarSesionBtn() {
+export default function IniciarSesionBtn(){
   return (
     <div className="container">
         <div className="row">
             <div className="col-12 text-center mt-4">
-                <h2 className='h4 mt-2 text-start'>Crear un boton general con un icono</h2>
                 <button className="btn btn-primary w-25">
-                    <i class="bi bi-person-check"></i>
+                    <i className="bi bi-person-check"></i>
                     <span className='ms-3'>
                         Iniciar sesión
                     </span>
@@ -16,4 +15,4 @@ export default function IniciarSesionBtn() {
         </div>
     </div>
   )
-}
+};
