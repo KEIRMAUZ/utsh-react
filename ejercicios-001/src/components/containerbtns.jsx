@@ -1,5 +1,6 @@
-import IniciarSesionBtn from "./btn"
-import CrearCuentaBtn from "./btnCrear"
+import IniciarSesionBtn from "./utils/btn"
+import {Ejercicio002} from './Ejercicio002'
+import CrearCuentaBtn from "./utils/btnCrear"
 
 export default function ContenedorBotones(){
     return(
@@ -10,6 +11,9 @@ export default function ContenedorBotones(){
             <div className="col-12 d-flex flex-column flex-md-row justify-content-around">
                 <IniciarSesionBtn/>
                 <CrearCuentaBtn/>
+            </div>
+            <div className="col-12 d-flex">
+                <Ejercicio002/>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 import Ejercicio01 from './components/ejercicio01'
 import ButtonGeneral from './components/buttonGeneral' 
-import ContenedorBotones  from './components/utils/containerbtns'
+import ContenedorBotones  from './components/containerbtns'
 
 function App() {
 
