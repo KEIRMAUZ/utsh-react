@@ -1,4 +1,4 @@
-import React from 'react'
+
 //EXPORTACION NOMBREDA ES QUE SE PUEDEN TENER LAS QUE SEAN EN UN MISMO ARCHIVO
 export const Ejercicio002 = () => {
   //Logica de componentes

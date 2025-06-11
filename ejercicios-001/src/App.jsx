@@ -1,7 +1,7 @@
 import Ejercicio01 from './components/ejercicio01'
 import ButtonGeneral from './components/buttonGeneral' 
 import ContenedorBotones  from './components/containerbtns'
-
+import Ejercicio003 from './components/Ejercicio003'
 function App() {
 
   return (
@@ -17,6 +17,7 @@ function App() {
         <Ejercicio01/>
         <ButtonGeneral/>
         <ContenedorBotones/>
+        <Ejercicio003/>
       </div>
       
     </>
