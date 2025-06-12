@@ -2,6 +2,11 @@ import Ejercicio01 from './components/ejercicio01'
 import ButtonGeneral from './components/buttonGeneral' 
 import ContenedorBotones  from './components/containerbtns'
 import Ejercicio003 from './components/Ejercicio003'
+import Ejercicio004 from './components/Ejercicio004'
+import EjercicioUseState001 from './components/Ejercicios-002/EjercicioUseState001'
+import EjercicioUseState002 from './components/Ejercicios-002/EjercicioUseState002'
+import EjercicioUseState00 from './components/Ejercicios-002/EjercicioUseState00'
+
 function App() {
 
   return (
@@ -18,6 +23,10 @@ function App() {
         <ButtonGeneral/>
         <ContenedorBotones/>
         <Ejercicio003/>
+        <Ejercicio004/>
+        <EjercicioUseState001/>
+        <EjercicioUseState002/>
+        <EjercicioUseState00/>
       </div>
       
     </>
