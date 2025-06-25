@@ -51,13 +51,13 @@ const EjInput02 = () => {
                         </div>
                         <button className="btn btn-outline-success" onClick={Sumar}>Sumar</button>
                     </div>
-                    <p className={`mt-4 alert alert-info text-center d-${status}`}>Resultado : {status}</p>
+                    <p className={`mt-4 alert alert-info text-center d-${status}`}>Resultado : {resultadoSuma}</p>
                     <div className={`${statusCalculando.clase} justify-content-center mt-2`}>
-
+                        <div className="spinner-border" role='status'></div>
                     </div>
                 </div>
             </div>
         </>
     )
 }
-export default EjInput02
+export default EjInput02;
