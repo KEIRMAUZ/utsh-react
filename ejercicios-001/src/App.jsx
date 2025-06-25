@@ -6,6 +6,8 @@ import Ejercicio004 from './components/Ejercicio004'
 import EjercicioUseState001 from './components/Ejercicios-002/EjercicioUseState001'
 import EjercicioUseState002 from './components/Ejercicios-002/EjercicioUseState002'
 import EjercicioUseState00 from './components/Ejercicios-002/EjercicioUseState00'
+import EjInput01 from './components/Ejercicios-003/EjInput01'
+import EjInput02 from './components/Ejercicios-003/EjInput02'
 
 function App() {
 
@@ -27,6 +29,8 @@ function App() {
         <EjercicioUseState001/>
         <EjercicioUseState002/>
         <EjercicioUseState00/>
+        <EjInput01/>
+        <EjInput02/>
       </div>
       
     </>
