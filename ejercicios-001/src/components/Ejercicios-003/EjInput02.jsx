@@ -4,16 +4,32 @@ import TituloEjercicio from '../TituloEjercicio'
 const EjInput02 = () => {
     const [valorInput1,setValorInput1] = useState(0);
     const [valorInput2,setValorInput2] = useState(0);
-    const [resultadoSuma,setResultadoSuma] = useState(0)
+    const [resultadoSuma,setResultadoSuma] = useState("");
+    const [status,setStatus]=useState('none')
+    const [statusCalculando,setStatusCalculando] =useState({
+        activo:false,
+        clase:"d-none"
+    })
     function cambiarValorInput1(evento){
-        setValorInput1(evento.target.value)
+        setValorInput1(evento.target.value);
+        setStatus('none');
     }
     const cambiarValorInput2 = (evento)=>{
-        setValorInput2(evento.target.value)
+        setValorInput2(evento.target.value);
+        setStatus('none');
     }
     function Sumar(){
+        setStatusCalculando({
+            activo:true,
+            clase:"d-flex"
+        })
+        setTimeout(()=>{
+            
+        })
         setResultadoSuma(parseFloat(valorInput1)+parseFloat(valorInput2))
+        setTexto()
     }
+
     return (
         <>
             <TituloEjercicio tituloEjercicio="Use State - Input002" />
@@ -30,7 +46,7 @@ const EjInput02 = () => {
                         </div>
                         <button className="btn btn-outline-success" onClick={Sumar}>Sumar</button>
                     </div>
-                    <p>Resultado : {resultadoSuma}</p>
+                    <p className=''>Resultado : {status}</p>
                 </div>
             </div>
         </>
