@@ -52,7 +52,7 @@ const EjInput02 = () => {
                         <button className="btn btn-outline-success" onClick={Sumar}>Sumar</button>
                     </div>
                     <p className={`mt-4 alert alert-info text-center d-${status}`}>Resultado : {status}</p>
-                    <div className={`${statusCalculando.clase}`}>
+                    <div className={`${statusCalculando.clase} justify-content-center mt-2`}>
 
                     </div>
                 </div>
