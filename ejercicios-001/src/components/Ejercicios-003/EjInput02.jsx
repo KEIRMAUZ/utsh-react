@@ -29,8 +29,9 @@ const EjInput02 = () => {
             setStatusCalculando({
                 activo:false,
                 clase:'d-none'
-            })
-        })
+            });
+            setStatus('block')
+        });
         
     }
 
