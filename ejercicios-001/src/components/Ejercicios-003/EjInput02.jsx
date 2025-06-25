@@ -31,7 +31,7 @@ const EjInput02 = () => {
                 clase:'d-none'
             });
             setStatus('block')
-        });
+        }, 3000);
         
     }
 
