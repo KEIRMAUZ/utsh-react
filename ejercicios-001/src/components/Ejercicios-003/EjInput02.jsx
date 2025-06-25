@@ -24,10 +24,14 @@ const EjInput02 = () => {
             clase:"d-flex"
         })
         setTimeout(()=>{
-            
+            const suma = parseFloat(valorInput1)+parseFloat(valorInput2);
+            setResultadoSuma(suma);
+            setStatusCalculando({
+                activo:false,
+                clase:'d-none'
+            })
         })
-        setResultadoSuma(parseFloat(valorInput1)+parseFloat(valorInput2))
-        setTexto()
+        
     }
 
     return (
